@@ -20,7 +20,7 @@ module.exports = {
 
         response.header('X-Total-Count', count['count(*)'])
     
-        return response.json(incidents)
+        return response.json({incidents})
     },
 
     async create(request, response) {
@@ -36,9 +36,6 @@ module.exports = {
         })
 
         return response.json({id})
-
-
-
     },
 
     async delete(request, response) {
@@ -54,8 +51,6 @@ module.exports = {
         await connection('incidents').where('id', id).delete();
 
         return response.status(204).send()
-
-
     }
 
 }
