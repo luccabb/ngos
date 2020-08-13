@@ -20,9 +20,23 @@
   }
   
   .profile-container header a {
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
     width: 260px;
     margin-left: auto;
     margin-top: 0;
+    background: #E02041;
+    margin-right: 24px;
+
+    background-color: #e02041;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s;
   }
   
   .profile-container header button {
@@ -34,6 +48,18 @@
     margin-left: 16px;
     transition: border-color 0.2s;
   }
+
+  /* .profile-container a {
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
+    background: #E02041;
+    margin-left: 16px;
+    transition: border-color 0.2s;
+
+    width: 260px;
+    margin-right: 24px;
+  } */
   
   .profile-container header button:hover {
     border-color: #999;
