@@ -2,8 +2,9 @@
 
 Platform to register cases where your NGO needs financial help, users can check all of them and chooses the one they want to help.
 
-![Screenshot](/screenshots/mobile-1.png)
-![Screenshot](/screenshots/web-1.png)
+
+<img src="/screenshots/web-1.png" alt="drawing" width="800"/>
+<img src="/screenshots/mobile-1.png" alt="drawing" width="300"/>
 
 ## Getting started
 
